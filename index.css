@@ -77,7 +77,8 @@ select {
     width: 80px;
     border: none;
     font-weight: bold;
-    font-size: 1rem;
+    font-size: 0.8rem;
+    color: black;
 }
 
 .filter_icon {
