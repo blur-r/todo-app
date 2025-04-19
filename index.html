@@ -1,0 +1,62 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>get things done</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Indie+Flower&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=filter_alt" />
+
+
+    <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+    <div>
+        <h1> - get shit done!!</h1>
+        <form action="">
+            <input type="text" name="" id="addtask-input"> <br>
+            <button type="submit">
+                +
+            </button>
+        </form>
+
+        <div class="tasks">
+            <div class="filter">
+                <span class="material-symbols-outlined filter_icon">
+                    filter_alt
+                </span>
+                <select name="filter-options" id="filter-options">
+                    <option value="all">all task</option>
+                    <option value="done">done tasks</option>
+                    <option value="not-done">not done</option>
+                </select>
+            </div>
+            <div id="todos">
+                <!-- <div class="todo-item ">
+                    <input type="checkbox" checked />
+                    <span class="task-text">cook</span>
+                    <button class="edit-btn">
+                        edit
+                    </button>
+                    <button class="delete-btn">
+                        delete
+                    </button>
+                </div> -->
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
